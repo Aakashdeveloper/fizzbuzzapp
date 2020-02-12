@@ -15,3 +15,12 @@ This is a fizzbuzz app.
 
 # For test
 > npm run test
+
+# HomeScreen(Valid Input)
+![Image description](https://i.ibb.co/PjfG5nG/Screenshot-2020-02-12-at-8-12-26-AM.png)
+
+# HomeScreen(InValid Input) 
+![Image description](https://i.ibb.co/rmZCmZB/Screenshot-2020-02-12-at-8-12-37-AM.png)
+
+# Test Case
+![Image description](https://i.ibb.co/PjfG5nG/Screenshot-2020-02-12-at-8-12-26-AM.png)
