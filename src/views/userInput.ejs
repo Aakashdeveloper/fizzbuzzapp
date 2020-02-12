@@ -1,0 +1,62 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Add new count</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <br>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">FizzBuzz</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+    </ul>
+  </div> 
+</nav>
+  <h2>FizzBuzz</h2>
+  <form action="/count" method="POST">
+    <div class="form-group">
+      <label for="name">Count:</label>
+      <input type="text" class="form-control" id="count" placeholder="Enter Count" name="count" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a href="/" class="btn btn-success" role="button">cancel</a>
+  </form>
+  
+
+</div>
+<br/>
+<div class="container">
+  <div class="col-md-6" style="height:200px;overflow: auto;border: 2px solid gray;">
+    <% for(var i=0; i<out.length; i++) {%>
+    <div class="col-md-12">
+            <strong><%=out[i]%></strong>
+    </div>
+    <hr/>
+    <%}%>
+</div>
+</div>
+
+
+
+</body>
+</html>
