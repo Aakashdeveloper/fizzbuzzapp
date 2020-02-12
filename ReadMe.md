@@ -23,4 +23,4 @@ This is a fizzbuzz app.
 ![Image description](https://i.ibb.co/rmZCmZB/Screenshot-2020-02-12-at-8-12-37-AM.png)
 
 # Test Case
-![Image description](https://i.ibb.co/PjfG5nG/Screenshot-2020-02-12-at-8-12-26-AM.png)
+![Image description](https://i.ibb.co/x8wbMJ7/Screenshot-2020-02-12-at-8-12-57-AM.png)
