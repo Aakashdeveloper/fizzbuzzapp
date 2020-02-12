@@ -1,5 +1,8 @@
 This is a fizzbuzz app.
 
+# Application generte using my own npm package
+> https://www.npmjs.com/package/@aakashdeveloper/create-node-app\
+
 # Tech Stack
 > NodeJs\
 > Express\
